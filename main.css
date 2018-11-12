@@ -1,0 +1,161 @@
+body {
+	padding: 0;
+	margin: 0;
+	max-width: 1264px;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background-image: url("img/01.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	height: 650px;
+	background-position: center;
+	color: white;
+	padding: 15px;
+	overflow: hidden;
+}
+
+.header__controls {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__logo {
+	text-transform: uppercase;
+	padding-left: 40px;
+	font-size: 12px;
+}
+
+.header__menu {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__menu--item {
+	text-transform: uppercase;
+	list-style-type: none;
+	font-size: 12px;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.header__menu--item:hover {
+	color: #FEB044;
+}
+
+.header__content {
+	text-align: center;
+	margin-top: 200px;
+}
+
+.header__content--heading {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 36px;
+	margin-bottom: 0px;
+}
+
+.header__content--text {
+	margin-top: 10px;
+	text-shadow: grey 0px 0px 1px;
+	font-size: 22px;
+}
+
+.section1 {
+	overflow: hidden;
+	display: flex;
+	/*flex-wrap: wrap;*/
+}
+
+.section1__image {
+	padding: 80px 60px;
+	/*width: 400px;*/
+	height: 400px;
+}
+
+.section1__content {
+	padding-top: 60px;
+	margin-right: 20px;
+}
+
+.section1__content--heading2,
+.section1__content--heading3 {
+	text-transform: uppercase;
+}
+
+.section1__list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.section1__list--item {
+	margin: 10px
+}
+
+.section1__list--item:before {
+	font-family: 'FontAwesome';
+	content: '\f192';
+	margin: 0 10px 0 0px;
+}
+
+.section2 {
+	background-image: url("img/03.jpg");
+	background-repeat: no-repeat;
+	height: 640px;
+	background-position: center;
+	color: white;
+	overflow: hidden;
+}
+
+.section2__title {
+	text-transform: uppercase;
+	margin-top: 100px;
+	text-align: center;
+	text-shadow: grey 0px 0px 2px;
+	font-size: 28px;
+}
+
+.client-info {
+	text-shadow: grey 0px 0px 2px;
+	text-align: center;
+}
+
+.client-info__image {
+	width: 110px;
+	border-radius: 50%;
+}
+
+.client-info--text {
+	margin: 15px;
+}
+
+.team {
+	display: flex
+}
+
+.section3__images {}
+
+.section3__images--item {
+	width: 23%;
+	margin: 1%;
+	float: left;
+}
+
+.section3__content {
+	margin: 2%;
+}
+
+.section3__content--heading {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.text-weight__100 {
+	font-weight: 100;
+}
+
+.color__active {
+	color: #FEB044;
+}
